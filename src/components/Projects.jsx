@@ -6,7 +6,7 @@ function Projects({id}) {
       name: "Food Order Application",
       desc: "A Python-based food ordering app using Tkinter, where users can browse hard-coded restaurant menus, place orders, and save customer data in a database.",
       githubLink: "",
-      image: "/public/restaurant_image.jpg",
+      image: "/restaurant_image.jpg",
     },
     {
       name: "Travel Management System",
@@ -18,13 +18,13 @@ function Projects({id}) {
       name: "Image Manipulator Application",
       desc: "Developed an image manipulation application using HTML, CSS, and JavaScript. Enabled users to perform basic image transformations and adjustments",
       githubLink: "https://github.com/anaskhanmuhammad/Image-Manipulator.git",
-      image: "/public/ImageManipulator_image.jfif",
+      image: "/ImageManipulator_image.jfif",
     },
     {
       name: "To-Do Application",
       desc: "Developed a to-do application using fundamental React concepts, implementing features such as adding items to the list and deleting tasks.",
       githubLink: "https://github.com/anaskhanmuhammad/To-Do-App.git",
-      image: "/public/task_image.png",
+      image: "/task_image.png",
     },
   ];
 
