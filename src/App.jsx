@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import About from "./components/About";
 import "./App.css";
 
 function App() {
@@ -11,11 +12,12 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <Intro></Intro>
-      <Projects></Projects>
-      <Skills></Skills>
-      <Contact></Contact>
+      <Header ></Header>
+      <Intro id="intro"></Intro>
+      <About></About>
+      <Projects id="projects"></Projects>
+      <Skills id="skills"></Skills>
+      <Contact id="contact"></Contact>
       <Footer></Footer>
     </>
   )

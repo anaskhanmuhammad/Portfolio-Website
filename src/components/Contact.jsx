@@ -3,16 +3,19 @@ import { FaGithub } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { FaFacebook } from "react-icons/fa";
 
-function Contact(params) {
+function Contact({id}) {
   return (
     <>
-      <div className="Contact-Div">
+      <div className="Contact-Div" id={id}>
         <h3>Contact Me!</h3>
         <div className="Contact-Links">
-            <FaLinkedinIn></FaLinkedinIn>
-            <FaGithub></FaGithub>
-            <IoMail></IoMail>
-            <FaFacebook></FaFacebook>
+            <a href="https://www.linkedin.com/in/muhammad-anas-khan-385146270/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn></FaLinkedinIn></a>
+            <a href="https://github.com/anaskhanmuhammad" target="_blank" rel="noopener noreferrer"><FaGithub></FaGithub></a>
+            <a href="" target="_blank" rel="noopener noreferrer"><IoMail></IoMail></a>
+            <a href="" target="_blank" rel="noopener noreferrer"><FaFacebook></FaFacebook></a>
+            
+            
+            
             
         </div>
         <div className="Message-Area">

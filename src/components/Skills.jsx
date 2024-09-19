@@ -6,10 +6,10 @@ import { FaPython } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
 import { BsFiletypeSql } from "react-icons/bs";
 
-function Skills(params) {
+function Skills({id}) {
   return (
     <>
-      <div className="Skill-Container">
+      <div className="Skill-Container" id={id}>
         <h3>My Skills</h3>
         <div className="skills">
           <div className="Skill">

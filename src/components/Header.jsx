@@ -1,25 +1,38 @@
-function Header(params) {
+import { useState } from "react";
+
+function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       <div className="header">
         <div className="name">
-          <span class="big-letter">A</span>
-          <span class="small-letter">NAS</span>
-          <span class="big-letter">K</span>
-          <span class="small-letter">HAN</span>
+          <span className="big-letter">A</span>
+          <span className="small-letter">NAS</span>
+          <span className="big-letter">K</span>
+          <span className="small-letter">HAN</span>
         </div>
+
+
+        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+
         <nav>
-          <ul>
+          <ul className={menuOpen ? "show" : ""}>
             <a href="">
               <li>Home</li>
             </a>
-            <a href="">
-              <li>About</li>
-            </a>
-            <a href="">
+            <a href="#projects">
               <li>Projects</li>
             </a>
-            <a href="">
+            <a href="#skills">
+              <li>Skills</li>
+            </a>
+            <a href="#contact">
               <li>Contact</li>
             </a>
           </ul>

@@ -6,7 +6,7 @@ function ProjectCard({p}) {
                 <div className="info">
                     <h1>{p.name}</h1>
                     <p>{p.desc}</p>
-                    <a href="" className="btn">GitHub Link</a>
+                    <a href={p.githubLink} className="btn" target="_blank" rel="noopener noreferrer">GitHub Link</a>
                 </div>
             </div>
 
