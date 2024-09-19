@@ -14,7 +14,7 @@ function App() {
     <>
       <Header ></Header>
       <Intro id="intro"></Intro>
-      <About></About>
+      <About id="about"></About>
       <Projects id="projects"></Projects>
       <Skills id="skills"></Skills>
       <Contact id="contact"></Contact>

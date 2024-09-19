@@ -149,7 +149,7 @@ html {
 }
 
 .intro {
-    background: #181818;
+    background: #2c2c2c;
     width: 100%;
     height: 86.5vh;
 }
@@ -507,15 +507,12 @@ justify-content: space-around;
 
 
 .box{
-  /* position: absolute; */
-  /* top: 0;
-  left: 0; */
   display: flex;
   justify-content: center;
   align-items: center;
   background: #ceaf00;
   margin: 1em;
-  flex: 1 ; 
+  flex: 1; 
   transition: 0.1s all ease;
   height: 10em;
   flex-direction: column;
@@ -523,6 +520,8 @@ justify-content: space-around;
   padding: 2em;
   text-align: center;
   font-family: Trebuchet MS, sans-serif;
+  cursor: pointer;
+  
 }
 
 
@@ -541,5 +540,5 @@ justify-content: space-around;
 
 .box:hover p{
   opacity: 1;
-  transition: opacity 2s ease;
+  transition: opacity 1s ease;
 }

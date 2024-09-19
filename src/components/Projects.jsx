@@ -9,12 +9,6 @@ function Projects({id}) {
       image: "/restaurant_image.jpg",
     },
     {
-      name: "Travel Management System",
-      desc: "A C++-based travel management system built using OOP concepts, allowing users to plan and manage their travel itineraries efficiently.",
-      githubLink: "https://github.com/anaskhanmuhammad/TravelManagementSystem.git",
-      image: "/Travel_image.jfif",
-    },
-    {
       name: "Image Manipulator Application",
       desc: "Developed an image manipulation application using HTML, CSS, and JavaScript. Enabled users to perform basic image transformations and adjustments",
       githubLink: "https://github.com/anaskhanmuhammad/Image-Manipulator.git",
