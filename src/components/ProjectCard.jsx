@@ -1,6 +1,5 @@
 function ProjectCard({p}) {
     return <>
-
             <div className="card">
                 <img src={p.image} alt="" />
                 <div className="info">
