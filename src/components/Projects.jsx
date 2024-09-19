@@ -12,7 +12,7 @@ function Projects({id}) {
       name: "Travel Management System",
       desc: "A C++-based travel management system built using OOP concepts, allowing users to plan and manage their travel itineraries efficiently.",
       githubLink: "https://github.com/anaskhanmuhammad/TravelManagementSystem.git",
-      image: "../../public/Travel_image.jfif",
+      image: "Travel_image.jfif",
     },
     {
       name: "Image Manipulator Application",
